@@ -1,5 +1,5 @@
 # Página: Proyecto web con JS
-Proyecto: plantilla web para la actualización de página en 2019.
+Proyecto: plantilla web con elección de colores a visualizar.
 
 ![template](https://img.shields.io/badge/Status-Terminado-green.svg)
 ![techs](https://img.shields.io/badge/tech-HTML--JS--CSS-yellow.svg)
