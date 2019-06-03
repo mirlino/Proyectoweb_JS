@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- sLIDER css -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <!-- SLIDER jAVAsCRIPT -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <!--Moment JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/es.js"></script>
+        <!--Personal Script -->
+        <script type="text/Javascript" src="js/main.js"></script>
+        <!--Estilo CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--Color Theme charge JavaScript-->
+        <div id="theme"></div>
+        <title>Curso JS</title>
+    </head>
+    <body>
+
+        <div id="selector-theme">
+            <div id="to-green"></div>
+            <div id="to-red"></div>
+            <div id="to-blue"></div>
+        </div>
+        <section id="global">
+            <!--Cabecera-->
+            <header>
+                <div id="logo">
+                   <h1>PROYECTO JS</h1>
+                </div>
+                <div class="clearfix"></div><!--LIMPIANDO FLOTADORES-->
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="reloj.html">Reloj</a></li>
+                        <li><a href="about.html">Sobre mi</a></li>
+                        <li><a href="contact.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <!--SLIDER-->
+            <div id="slider">
+                <div class="galeria">
+                    <div><img src="img/hojasVerdes.jpg" title="Hojas Verdes"></div>
+                    <div><img src="img/hojasRojizas.jpg" title="Hojas Rojisaz"></div>
+                    <div><img src="img/cielo.jpg" title="Cielo"></div>
+                  </div>
+            </div>
+
+            <!--CONTENIDO-->
+            <section id="content">
+                <div id="posts">
+                    <!-- CONTENIDO CARGADO DESDE JS -->
+                </div>
+                <aside id="sidebar">
+                    <div id="about">
+                        <h4>¿Quíen soy?</h4>
+                        <img src="img/perrito.png"/>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore nihil rem, pariatur eos nam vitae.</p>
+                    </div>
+
+                    <div id="login">
+                        <h4>Identificate</h4>
+                        <form action="">
+                            <label for="name">
+                                Nombre
+                            </label>
+                            <input type="text" name="name" id="form_name" />
+
+                            <label for="email" >
+                                Correo
+                            </label>
+                            <input type="email" name="email" />
+
+                            <label for="password">
+                                Contraseña
+                            </label>
+                            <input type="password" name="password" />
+
+                            <input type="submit" value="Entrar" />
+                        </form>
+                    </div>
+
+                </aside>
+                <div class="clearfix"></div><!--LIMPIANDO FLOTADORES-->
+            </section>
+        </section>
+        <footer>
+            Curso de JavaScript Mirlino &copy; <span id="fecha-footer"><!--Fecha con JS--></span>
+
+            <a href="#" class="subir">Ir arriba</a>
+        </footer>
+
+    </body>
+</html>

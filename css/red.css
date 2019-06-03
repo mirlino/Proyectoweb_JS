@@ -1,0 +1,23 @@
+body{
+    background: url('../img/hojasRojizas.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    transition: all 500ms;
+}
+
+#logo{
+    background-color: #CA3413;
+    
+}
+
+#menu ul li:hover{
+    background-color: #CA3413;
+}
+
+.button-more{
+    background-color: #CA3413;
+}
+
+.button-more:hover{
+    background-color: tomato;
+}
