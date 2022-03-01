@@ -8,7 +8,8 @@ Proyecto: plantilla web con elección de colores a visualizar.
 ---
 
 ### Contenido y características
-- Plantilla Web Terminada
+- Plantilla Web Terminada.
+- Utilizando LocalStorage, entre otras funcionalidades JavaScript.
 
 
 ### Tecnologías usadas
